@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    height:79px;
+}
+.img{
+    height: 124px;
+    margin-left: -266px;
+    margin-top: -116px;
+    margin-bottom: 6px;
+    padding-bottom: 14px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.tlt{
+    font-size: 10px;
+}
+
+
+
+header {
+
+
+    background:linear-gradient(#46c2de,white,black);
+    color: #025e0b;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+
+header h1 {
+    margin-bottom: 10px;
+}
+.para{
+    font-weight: bold;
+    color: white;
+    font-size: 60px;
+    font-style: italic;
+    background:linear-gradient(black,rgb(218, 167, 167),black);
+    border-style:solid;
+}
+.para2{
+    font-weight: bold;
+    color: darkgoldenrod;
+    font-size: 20px;
+    font-style: initial;
+    background:linear-gradient(black,rgb(111, 21, 36));
+    border-style: outset;
+    
+
+}
+.iot{
+    font-size: 50px;
+    color: white;
+    font-style: italic;
+    background:linear-gradient(rgb(85, 14, 26),black);
+    border-style :groove;
+    
+}
+.iot2{
+    font-size: 20px;
+    color: darkgoldenrod;
+    background:linear-gradient(rgb(232, 66, 94),black,rgb(56, 8, 16));
+    border-style: groove;
+}
+
+.tech{
+    font-size: 50px;
+    color: white;
+    background:linear-gradient(rgb(116, 24, 24),black);
+    border-style: groove;
+}
+.ctn{
+    font-size: 30px;
+    color: blueviolet;
+    border-style: groove;
+}
+nav ul {
+    list-style: none;
+}
+.btn{
+    background-color: #f4f4f4;
+    color: black;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+.container {
+    font-size: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#about, #services, #internships, #contact {
+    background:linear-gradient(blue,white,black);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#services .service-box {
+    margin-bottom: 20px;
+    font-size: larger;
+}
+.atn{
+    font-size: 50px;
+    color: white;
+    font-style: italic;
+    background:linear-gradient(brown,black) black;
+    border-style: groove;
+}
+.atn2{
+    font-size: 30px;
+    color: darkgoldenrod;
+    background:linear-gradient(black,pink,black);
+    border-style: groove;
+}
+
+
+
+button {
+    background-color: #3174d3;
+    color: rgb(28, 26, 26);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4e22d3;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    align-self: flex-start;
+}
+.img1{
+    border-color: #46de6f;
+
+}
+
+
